@@ -86,13 +86,6 @@ High-level system design and approach
 - [ ] User testing
 
 ## Innovation
-The main innovation of the DeFi Auto-Stake & Claim Router is the separation of claim rights from reward receipt.
-With this concept, users can still use legacy wallets (e.g., those that have been compromised or are vulnerable) to prove claim ownership, while rewards are sent directly to secure wallets without having to transit through risky wallets.
-
-Additionally, it includes:
-
-zk-Proof → verifying claim ownership without exposing private data.
-
 Gas sponsorship → allows third parties or new wallets to cover gas costs instead of legacy wallets.
 
 Composable middleware → can be used across staking/airdrop protocols on the Soundness Layer.
@@ -107,4 +100,9 @@ As a result, users gain an extra layer of security, a more streamlined experienc
 - [ ] All fields completed
 - [ ] GitHub username matches PR author  
 - [ ] SL integration explained
-- [ ] Timeline is realistic
+- [ ] Timeline is realisticThe main innovation of the DeFi Auto-Stake & Claim Router is the separation of claim rights from reward receipt.
+With this concept, users can still use legacy wallets (e.g., those that have been compromised or are vulnerable) to prove claim ownership, while rewards are sent directly to secure wallets without having to transit through risky wallets.
+
+Additionally, it includes:
+
+zk-Proof → verifying claim ownership without exposing private data.
